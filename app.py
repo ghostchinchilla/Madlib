@@ -12,6 +12,7 @@ debug = DebugToolbarExtension(app)
 @app.route("/")
 def ask_questions():
     """Generate and show form to ask words."""
+    print('py')
 
     prompts = story.prompts
 
